@@ -11,7 +11,6 @@ namespace API.Controllers
     public class ProductsController : ControllerBase
     {
         private readonly StoreContext context;
-        private readonly StoreContext contex2;
 
         public ProductsController(StoreContext context)
         {
